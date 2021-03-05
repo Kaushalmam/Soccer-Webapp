@@ -1,0 +1,5 @@
+The goldengoal/data folder contains two sql files.
+create_db_large.sql which contains the SQL queries for creating all the 13 tables.
+populate_db_large.sql contains the code to insert values into those tables.
+
+Please follow the instructions mentioned in application_instructions.txt before creating the database

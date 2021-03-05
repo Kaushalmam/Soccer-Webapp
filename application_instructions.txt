@@ -1,0 +1,16 @@
+Please follow the steps to get the application running:
+
+1. Download and Install XAMPP version 8.0.0 / PHP 8.0.0
+Use link: https://www.apachefriends.org/download.html
+
+2. When XAMPP is downloaded and installed, place the extracted goldengoal folder in /xampp/htdocs/<extracted_folder_goes_here>
+By default xampp gets downloaded under C:/
+
+3. Open xampp application and start Apache and Mysql servers by clicking on the start button for each.
+
+4. Once both the servers have started, click on the Admin button of MySQL. This will open phpMyAdmin in your browser.
+Note: We have noticed issues with running phpMyAdmin on systems with MySQL Workbench software installed. This is because the xampp tries to listen to the same port which is occupied by MySQL Workbench. To use phpMyAdmin, please consider uninstalling MySQL Workbench from your system.
+
+5. In phpMyAdmin, create a new database called goldengoal, in the SQL tab copy and paste the contents of create_db_large.sql and press GO on the bottom right corner. Once the queries execute successfully, click on the SQL tab again and copy and paste the contents of populate_db_large.sql and press GO on the bottom right corner. The queries should execute successfully with a few warnings which can be ignored.
+
+6. Finally, go to http://localhost/goldengoal/web/Final.html to interact with the application.
